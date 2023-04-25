@@ -1,0 +1,304 @@
+
+<!-- Los comentarios a lo largo del codigo son muy importantes nos ayudan  -->
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Piedra Filosofal</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+h1,h2,h3,h4,h5,h6 {font-family: "Oswald"}
+body {font-family: "Open Sans"}
+</style>
+</head>
+
+<body class="w3-light-grey">
+
+<!-- Navigation bar with social media icons --> 
+
+
+<div class="w3-bar w3-black w3-hide-small">
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-facebook-official"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-instagram"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-snapchat"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-flickr"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-twitter"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-linkedin"></i></a>
+  <a href="#" class="w3-bar-item w3-button w3-right"><i class="fa fa-search"></i></a>
+</div>
+  
+<!-- w3-content defines a container for fixed size centered content, 
+and is wrapped around the whole page content, except for the footer in this example -->
+<div class="w3-content" style="max-width:1600px">
+
+  <!-- Header -->
+  <header class="w3-container w3-center w3-padding-48 w3-white">
+    <h1 class="w3-xxxlarge"><b>Piedra Filosofal </b></h1>
+    <h6>Bienvenidos a <span class="w3-tag">Aprendiendo sobre la piedra filosofal.</span></h6>
+  </header>
+
+  <!-- Image header -->
+  <header class="w3-display-container w3-wide" id="home">
+    <img class="w3-image" src="img/0c6382608ee90dc4026a8291addeabfd.jpg" alt="Fashion Blog" width="1600" height="1060">
+    <div class="w3-display-left w3-padding-large">
+      <h1 class="w3-text-white"></h1>
+      <h1 class="w3-jumbo w3-text-white w3-hide-small"><b>¿Que es la piedra filosofal</b></h1>
+      <h6><button class="w3-button w3-white w3-padding-large w3-large w3-opacity w3-hover-opacity-off" onclick="document.getElementById('subscribe').style.display='block'">INCRESAR</button></h6>
+    </div>
+  </header>
+
+  <!-- Grid -->
+  <div class="w3-row w3-padding w3-border">
+
+    <!-- Blog entries -->
+    <div class="w3-col l8 s12">
+    
+      <!-- Blog entry -->
+      <div class="w3-container w3-white w3-margin w3-padding-large">
+        <div class="w3-center">
+          <h3>La piedra fiosofal</h3>
+          <h5>Nicolas Flamel es el unico descubridor conocido de la piedra filosofal.
+              <span class="w3-opacity">Nicolas Flamer fue un Alquimisa que se dice que creo la piedra filosofal</span>
+          </h5>
+        </div>
+
+        <div class="w3-justify">
+          <img src="./img/descarga (1).jpg" alt="Girl Hat" style="width:100%" class="w3-padding-16">
+          <p><strong> La piedra filosofal!</strong>La Piedra Filosofal fue una piedra roja hecha por hombres con propiedades mágicas. Podía ser utilizada para crear el Elixir de la Vida, el cuál alarga la vida del bebedor, al igual que transforma cualquier metal en oro puro. El famoso alquimista Nicolas Flamel creó la única Piedra Filosofal conocida en existencia.
+
+            La piedra filosofal es una sustancia alquímica legendaria que se dice que es capaz de convertir los metales básicos, tales como el plomo, en oro (chrysopoeia) o plata. 
+            
+            La piedra filosofal era el símbolo central de la terminología mística de la alquimia, que simboliza la perfección en su máxima expresión, la iluminación y la felicidad celestial. .</p>
+          <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+          <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo1')" id="myBtn"><b>Replies  </b> <span class="w3-tag w3-white">1</span></button></p>
+          <p class="w3-clear"></p>
+          <div class="w3-row w3-margin-bottom" id="demo1" style="display:none">
+            <hr>
+              <div class="w3-col l2 m3">
+                <img src="img/3087c75c-59d9-4c6b-acbf-aa07ecbe9ca9.jpg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>Adriana salas.<span class="w3-opacity w3-medium"></span></h4>
+                <p>La piedra filosofal me parece un tema muy interesante.</p>
+              </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+
+
+
+      <!-- Blog entry -->
+      <div class="w3-container w3-white w3-margin w3-padding-large">
+        <div class="w3-center">
+          <h3>LA LEGENDARIA PIEDRA FILOSOFAL</h3>
+          <h5>"Creacion de oro" <span class="w3-opacity">SsSsS</span></h5>
+        </div>
+
+        <div class="w3-justify">
+          <img src="img/descarga.jpg" alt="Runway" style="width:100%" class="w3-padding-16">
+          <p><strong></strong>El concepto tiene en su base una cierta lógica científica inspirada en las reacciones químicas. </p>
+          <p>A pesar de su nombre, la piedra filosofal no era necesariamente una roca, sino una sustancia de naturaleza indefinida que tendría la capacidad de transformar metales básicos en preciosos a través de un proceso llamado crisopea o argiropea (cuyo significado en griego es, respectivamente, “creación de oro” y “creación de plata”).</p>
+          <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+          <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo3')"><b>Comentarios  </b> <span class="w3-tag w3-white">3</span></button></p>
+          <p class="w3-clear"></p>
+          
+          <!-- Example of comment field -->
+          <div id="demo3" style="display:none">
+            <hr>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+                <img src="img/Shaieeel.jpg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>Shaiel<span class="w3-opacity w3-medium">¿Donde crees que se pueda encontrar la piedra filosofal?</span></h4>
+                <p>.</p>
+              </div>
+            </div>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+                <img src="img/Dieego.jpg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>Diego<span class="w3-opacity w3-medium">April 8, 2015, 10:32 PM</span></h4>
+                <p>Ese viejo se ve como rarito.</p>
+              </div>
+            </div>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+                <img src="img/Mailyyyn.jpg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>Mailyn<span class="w3-opacity w3-medium">April 7, 2015, 9:12 PM</span></h4>
+                <p>Que tema tan aburrido!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    <!-- END BLOG ENTRIES -->
+    </div>
+
+    <!-- About/Information menu -->
+    <div class="w3-col l4">
+      <!-- About Card -->
+      <div class="w3-white w3-margin">
+        <img src="img/descarg dato intersenatee.jpg" alt="Jane" style="width:100%" class="w3-grayscale">
+        <div class="w3-container w3-black">
+          <h4>Dato intersente!</h4>
+          <p>En varios libros o peliculas se habla sobre  ella como en Harry Potter.</p>
+        </div>
+      </div>
+      <hr>
+
+      <!-- Posts -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Otros datos interestantes.</h4>
+        </div>
+        <ul class="w3-ul w3-hoverable w3-white">
+          <li class="w3-padding-16">
+            <img src="img/0c6382608ee90dc4026a8291addeabfd.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+            <span class="w3-large">Otra leyenda de la Piedra filosofal</span>
+            <br>
+            <span></span>Otra leyenda de la piedra filosofal dice que la persona que la posee puede transmutar todo tipo de objetos en oro, pero su uso constante hace que poco a poco la persona que la use vaya, casi sin advertirlo, convirtiéndose en oro. Esto seria un castigo al abuso de los poderes de la piedra, y a la codicia de la persona...
+          </li>
+          <li class="w3-padding-16">
+            <img src="img/harry-potter-replica-piedra-filosofal.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+            <span class="w3-large">Otro mito o leyenda sobre la piedra filosofal</span>
+            <br>
+            <span> Que era un compuesto capaz de curar las enfermedades, otorgar una juventud eterna y la inmortalidad.</span>
+          </li>
+          <li class="w3-padding-16">
+            <img src="img/descarga (1).jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+            <span class="w3-large">Fechas</span>
+            <br>
+            <span>La alquimia lleva tres siglos tras este prodigio.</span>
+          </li>
+          <li class="w3-padding-16">
+            <img src="img/harry-potter-replica-piedra-filosofal.jpg" alt="Image" class="w3-left w3-margin-right w3-sepia" style="width:50px">
+            <span class="w3-large">¿Porque los alquimistas no se dan a conocer?</span>
+            <br>
+            <span>La razón fundamental es el juramento de secreto que les vincula a su obra. Modestia y discreción son un contrapunto indispensable que, según ellos, el practicante ha de oponer a la ambición de encontrar la ‘piedra filosofal’.</span>
+          </li>
+        </ul>
+      </div>
+      <hr>
+
+     
+
+      <!-- Tags -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Tags</h4>
+        </div>
+        <div class="w3-container w3-white">
+          <p>
+            <span class="w3-tag w3-black w3-margin-bottom">Alquimia</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Nicolas Flamel</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">poderes curativos</span>
+            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Vida terna</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Argiropea</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Perfecion</span>
+            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Metodologia</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Creaccion de oro</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Iluminacion celestial</span>
+            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Leyenda</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Paranormal</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Sustancia</span>
+            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">"Creacion de oro"</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Harry Potter</span>
+          </p>
+        </div>
+      </div>
+      <hr>
+
+      <!-- Inspiration -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Inspiration</h4>
+        </div>
+        <div class="w3-row-padding w3-white">
+          <div class="w3-col s6">
+            <p><img src="img/pooooon.jpg" alt="Jeans" style="width:100%"></p>
+            <p><img src="img/detalle-del-poster-de-harry-potter-y-la-piedra-filosofal.jpeg" alt="Jeans" style="width:100%"></p>
+          </div>
+          <div class="w3-col s6">
+            <p><img src="img/pooon2.jpg" alt="Men in Hats" style="width:100%" class="w3-grayscale"></p>
+            <p><img src="img/poon3.jpg" alt="Jeans" style="width:100%"></p>
+         </div>
+        </div>
+      </div>
+      <hr>
+
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Follow Me</h4>
+        </div>
+        <div class="w3-container w3-xlarge w3-padding">
+          <i class="fa fa-facebook-official w3-hover-opacity"></i>
+          <i class="fa fa-instagram w3-hover-opacity"></i>
+          <i class="fa fa-snapchat w3-hover-opacity"></i>
+          <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+          <i class="fa fa-twitter w3-hover-opacity"></i>
+          <i class="fa fa-linkedin w3-hover-opacity"></i>
+        </div>
+      </div>
+      <hr>
+      
+      <!-- Subscribe -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Subscribe</h4>
+        </div>
+        <div class="w3-container w3-white">
+          <p>Suscribete para mas conocimientos.</p>
+          <p><input class="w3-input w3-border" type="text" placeholder="Enter e-mail" style="width:100%"></p>
+          <p><button type="button" onclick="document.getElementById('subscribe').style.display='block'" class="w3-button w3-block w3-red">Subscribe</button></p>
+        </div>
+      </div>
+
+    <!-- END About/Intro Menu -->
+    </div>
+
+  <!-- END GRID -->
+  </div>
+
+<!-- END w3-content -->
+</div>
+
+<!-- Subscribe Modal -->
+<div id="subscribe" class="w3-modal w3-animate-opacity">
+  <div class="w3-modal-content" style="padding:32px">
+    <div class="w3-container w3-white">
+      <i onclick="document.getElementById('subscribe').style.display='none'" class="fa fa-remove w3-transparent w3-button w3-xlarge w3-right"></i>
+      <h2 class="w3-wide">SUBSCRIBE</h2>
+      <p>Join my mailing list to receive updates on the latest blog posts and other things.</p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Enter e-mail"></p>
+      <button type="button" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom" onclick="document.getElementById('subscribe').style.display='none'">Subscribe</button>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-container " style="padding:32px">
+  <a href="#" class="w3-button w3-black w3-padding-large w3-margin-bottom"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+</footer>
+
+<script>
+// Toggle between hiding and showing blog replies/comments
+document.getElementById("myBtn").click();
+function myFunction(id) {
+  var x = document.getElementById(id);
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+function likeFunction(x) {
+  x.style.fontWeight = "bold";
+  x.innerHTML = "✓ Liked";
+}
+</script>
+
+</body>
+</html>
